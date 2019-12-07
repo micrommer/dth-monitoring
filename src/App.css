@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.title {
+  text-align: center;
+  color: #f8b195;
+  padding-bottom: 10px;
+}
+.back {
+  background-color: #27323a;
+  height: 100vh; /* For 100% screen height */
+  width: 100vw; /* For 100% screen width */
+  overflow: hidden;
+}
