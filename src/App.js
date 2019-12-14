@@ -31,7 +31,7 @@ class App extends Component {
 	updateChart() {
 		let value = '';
 		axios
-			.get('http://127.0.0.1:5000/dth')
+			.get('http://192.168.43.42:5000/dth')
 			.then(function(response) {
 				value = response.data;
 			})
@@ -42,7 +42,7 @@ class App extends Component {
 				console.log(value);
 				value = value.split(',');
 				console.log(value[0]);
-				dps.push({ x: xVal, y: Number(value[0]), lineColor: '#f8b195' });
+				dps.push({ x: xVal, y: Number(value[1]), lineColor: '#f8b195' });
 				xVal++;
 				if (dps.length > 10) {
 					dps.shift();
@@ -55,7 +55,7 @@ class App extends Component {
 			backgroundColor: '#435055',
 			theme: 'dark1',
 			title: {
-				text: 'Temperature',
+				text: 'humidity',
 				fontColor: '#f8b195'
 			},
 			data: [
