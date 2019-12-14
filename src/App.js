@@ -4,7 +4,6 @@ import CanvasJSReact from './assets/canvasjs.react';
 import './assets/canvasjs.min.js';
 import axios from 'axios';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-var CanvasJSChart2 = CanvasJSReact.CanvasJSChart;
 
 var dps = [
 	{ x: 1, y: 10, lineColor: '#f8b195' }
@@ -19,7 +18,6 @@ var dps = [
 	// { x: 10, y: 17, lineColor: "#f8b195" }
 ]; //dataPoints.
 var xVal = 50;
-var yVal = 50;
 var updateInterval = 1000;
 
 class App extends Component {
