@@ -1,7 +1,7 @@
 # DHT Monitoring 
 1. Monintor the exposed data by [DHT Microservice](https://github.com/ibhlool7/dth-microservice)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
