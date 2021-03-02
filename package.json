@@ -11,7 +11,7 @@
     "canvasjs": "^1.8.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
